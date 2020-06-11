@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Games4Sell.xcodeproj">
+      location = "group:SWRevealViewController">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E5E56C922A58E32E6B3A4D1 /* libPods-Games4Sell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80785A72A6970FEB124219DA /* libPods-Games4Sell.a */; };
+		B031C76C23D6AF07007F0B13 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B031C76B23D6AF06007F0B13 /* GoogleService-Info.plist */; };
 		B03C445923C3E8BE001D82BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B03C445823C3E8BE001D82BF /* AppDelegate.m */; };
 		B03C445C23C3E8BE001D82BF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B03C445B23C3E8BE001D82BF /* SceneDelegate.m */; };
 		B03C445F23C3E8BE001D82BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B03C445E23C3E8BE001D82BF /* ViewController.m */; };
@@ -16,6 +18,19 @@
 		B03C446A23C3E8C0001D82BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B03C446923C3E8C0001D82BF /* main.m */; };
 		B03C447423C3E8C0001D82BF /* Games4SellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B03C447323C3E8C0001D82BF /* Games4SellTests.m */; };
 		B03C447F23C3E8C0001D82BF /* Games4SellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B03C447E23C3E8C0001D82BF /* Games4SellUITests.m */; };
+		B04FAB3423DF076900EC2571 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04FAB3323DF076900EC2571 /* RegisterController.m */; };
+		B04FAB3F23DFEF7200EC2571 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04FAB3E23DFEF7200EC2571 /* NavigationViewController.m */; };
+		B04FAB4223DFF40200EC2571 /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04FAB4123DFF40200EC2571 /* MyProfileViewController.m */; };
+		B0624B6F23E7CD3400A7F315 /* ProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0624B6E23E7CD3400A7F315 /* ProductTableViewController.m */; };
+		B0624B7223E7E29000A7F315 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = B0624B7123E7E29000A7F315 /* Product.m */; };
+		B0624B7A23E84F4600A7F315 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0624B7923E84F4600A7F315 /* ProductCell.m */; };
+		B0624B8323E8DEA900A7F315 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0624B8223E8DEA900A7F315 /* ProductDetailViewController.m */; };
+		B0624B8C23F166DB00A7F315 /* shoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0624B8B23F166DB00A7F315 /* shoppingCartViewController.m */; };
+		B0624B8F23F1672400A7F315 /* shopCart.m in Sources */ = {isa = PBXBuildFile; fileRef = B0624B8E23F1672400A7F315 /* shopCart.m */; };
+		B0C63B0C23F16FAA00E48C64 /* shopCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C63B0B23F16FAA00E48C64 /* shopCartCell.m */; };
+		B0C63B1223F2A2E700E48C64 /* OrderHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C63B1123F2A2E700E48C64 /* OrderHistoryViewController.m */; };
+		B0C63B1523F2A44400E48C64 /* OrderHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C63B1423F2A44400E48C64 /* OrderHistoryCell.m */; };
+		B0C63B1823F2A61600E48C64 /* OrderHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C63B1723F2A61600E48C64 /* OrderHistory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80785A72A6970FEB124219DA /* libPods-Games4Sell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Games4Sell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A099A7112AD9F572CB5F547B /* Pods-Games4Sell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Games4Sell.debug.xcconfig"; path = "Target Support Files/Pods-Games4Sell/Pods-Games4Sell.debug.xcconfig"; sourceTree = "<group>"; };
+		B031C76B23D6AF06007F0B13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B03C445423C3E8BE001D82BF /* Games4Sell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Games4Sell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03C445723C3E8BE001D82BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B03C445823C3E8BE001D82BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +72,33 @@
 		B03C447A23C3E8C0001D82BF /* Games4SellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Games4SellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03C447E23C3E8C0001D82BF /* Games4SellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Games4SellUITests.m; sourceTree = "<group>"; };
 		B03C448023C3E8C0001D82BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04FAB3223DF076900EC2571 /* RegisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		B04FAB3323DF076900EC2571 /* RegisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		B04FAB3D23DFEF7200EC2571 /* NavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		B04FAB3E23DFEF7200EC2571 /* NavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		B04FAB4023DFF40200EC2571 /* MyProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProfileViewController.h; sourceTree = "<group>"; };
+		B04FAB4123DFF40200EC2571 /* MyProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyProfileViewController.m; sourceTree = "<group>"; };
+		B0624B6D23E7CD3400A7F315 /* ProductTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductTableViewController.h; sourceTree = "<group>"; };
+		B0624B6E23E7CD3400A7F315 /* ProductTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewController.m; sourceTree = "<group>"; };
+		B0624B7023E7E29000A7F315 /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		B0624B7123E7E29000A7F315 /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		B0624B7823E84F4600A7F315 /* ProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		B0624B7923E84F4600A7F315 /* ProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		B0624B8123E8DEA900A7F315 /* ProductDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		B0624B8223E8DEA900A7F315 /* ProductDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		B0624B8A23F166DB00A7F315 /* shoppingCartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shoppingCartViewController.h; sourceTree = "<group>"; };
+		B0624B8B23F166DB00A7F315 /* shoppingCartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shoppingCartViewController.m; sourceTree = "<group>"; };
+		B0624B8D23F1672400A7F315 /* shopCart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shopCart.h; sourceTree = "<group>"; };
+		B0624B8E23F1672400A7F315 /* shopCart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shopCart.m; sourceTree = "<group>"; };
+		B0C63B0A23F16FAA00E48C64 /* shopCartCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shopCartCell.h; sourceTree = "<group>"; };
+		B0C63B0B23F16FAA00E48C64 /* shopCartCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shopCartCell.m; sourceTree = "<group>"; };
+		B0C63B1023F2A2E700E48C64 /* OrderHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderHistoryViewController.h; sourceTree = "<group>"; };
+		B0C63B1123F2A2E700E48C64 /* OrderHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderHistoryViewController.m; sourceTree = "<group>"; };
+		B0C63B1323F2A44400E48C64 /* OrderHistoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderHistoryCell.h; sourceTree = "<group>"; };
+		B0C63B1423F2A44400E48C64 /* OrderHistoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderHistoryCell.m; sourceTree = "<group>"; };
+		B0C63B1623F2A61600E48C64 /* OrderHistory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderHistory.h; sourceTree = "<group>"; };
+		B0C63B1723F2A61600E48C64 /* OrderHistory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderHistory.m; sourceTree = "<group>"; };
+		B9ED2F7E13CEDBA798A01CC2 /* Pods-Games4Sell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Games4Sell.release.xcconfig"; path = "Target Support Files/Pods-Games4Sell/Pods-Games4Sell.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5E56C922A58E32E6B3A4D1 /* libPods-Games4Sell.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +127,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AE061AF32D127D71634AF37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80785A72A6970FEB124219DA /* libPods-Games4Sell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B03C444B23C3E8BE001D82BF = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +142,8 @@
 				B03C447223C3E8C0001D82BF /* Games4SellTests */,
 				B03C447D23C3E8C0001D82BF /* Games4SellUITests */,
 				B03C445523C3E8BE001D82BF /* Products */,
+				FE6E17A7F49123F05A6FAA56 /* Pods */,
+				9AE061AF32D127D71634AF37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +160,23 @@
 		B03C445623C3E8BE001D82BF /* Games4Sell */ = {
 			isa = PBXGroup;
 			children = (
+				B04FAB3C23DFEF2C00EC2571 /* Controller */,
 				B03C445723C3E8BE001D82BF /* AppDelegate.h */,
 				B03C445823C3E8BE001D82BF /* AppDelegate.m */,
 				B03C445A23C3E8BE001D82BF /* SceneDelegate.h */,
 				B03C445B23C3E8BE001D82BF /* SceneDelegate.m */,
-				B03C445D23C3E8BE001D82BF /* ViewController.h */,
-				B03C445E23C3E8BE001D82BF /* ViewController.m */,
 				B03C446023C3E8BE001D82BF /* Main.storyboard */,
 				B03C446323C3E8C0001D82BF /* Assets.xcassets */,
 				B03C446523C3E8C0001D82BF /* LaunchScreen.storyboard */,
 				B03C446823C3E8C0001D82BF /* Info.plist */,
 				B03C446923C3E8C0001D82BF /* main.m */,
+				B031C76B23D6AF06007F0B13 /* GoogleService-Info.plist */,
+				B0624B7023E7E29000A7F315 /* Product.h */,
+				B0624B7123E7E29000A7F315 /* Product.m */,
+				B0624B8D23F1672400A7F315 /* shopCart.h */,
+				B0624B8E23F1672400A7F315 /* shopCart.m */,
+				B0C63B1623F2A61600E48C64 /* OrderHistory.h */,
+				B0C63B1723F2A61600E48C64 /* OrderHistory.m */,
 			);
 			path = Games4Sell;
 			sourceTree = "<group>";
@@ -137,6 +199,52 @@
 			path = Games4SellUITests;
 			sourceTree = "<group>";
 		};
+		B04FAB3C23DFEF2C00EC2571 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0C63B0623F16EF000E48C64 /* ViewCell */,
+				B03C445D23C3E8BE001D82BF /* ViewController.h */,
+				B03C445E23C3E8BE001D82BF /* ViewController.m */,
+				B04FAB3223DF076900EC2571 /* RegisterController.h */,
+				B04FAB3323DF076900EC2571 /* RegisterController.m */,
+				B04FAB3D23DFEF7200EC2571 /* NavigationViewController.h */,
+				B04FAB3E23DFEF7200EC2571 /* NavigationViewController.m */,
+				B04FAB4023DFF40200EC2571 /* MyProfileViewController.h */,
+				B04FAB4123DFF40200EC2571 /* MyProfileViewController.m */,
+				B0624B6D23E7CD3400A7F315 /* ProductTableViewController.h */,
+				B0624B6E23E7CD3400A7F315 /* ProductTableViewController.m */,
+				B0624B8123E8DEA900A7F315 /* ProductDetailViewController.h */,
+				B0624B8223E8DEA900A7F315 /* ProductDetailViewController.m */,
+				B0624B8A23F166DB00A7F315 /* shoppingCartViewController.h */,
+				B0624B8B23F166DB00A7F315 /* shoppingCartViewController.m */,
+				B0C63B1023F2A2E700E48C64 /* OrderHistoryViewController.h */,
+				B0C63B1123F2A2E700E48C64 /* OrderHistoryViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B0C63B0623F16EF000E48C64 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B0624B7823E84F4600A7F315 /* ProductCell.h */,
+				B0624B7923E84F4600A7F315 /* ProductCell.m */,
+				B0C63B0A23F16FAA00E48C64 /* shopCartCell.h */,
+				B0C63B0B23F16FAA00E48C64 /* shopCartCell.m */,
+				B0C63B1323F2A44400E48C64 /* OrderHistoryCell.h */,
+				B0C63B1423F2A44400E48C64 /* OrderHistoryCell.m */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		FE6E17A7F49123F05A6FAA56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A099A7112AD9F572CB5F547B /* Pods-Games4Sell.debug.xcconfig */,
+				B9ED2F7E13CEDBA798A01CC2 /* Pods-Games4Sell.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B03C448323C3E8C0001D82BF /* Build configuration list for PBXNativeTarget "Games4Sell" */;
 			buildPhases = (
+				A7A93A3FCCAFF3B935476A87 /* [CP] Check Pods Manifest.lock */,
 				B03C445023C3E8BE001D82BF /* Sources */,
 				B03C445123C3E8BE001D82BF /* Frameworks */,
 				B03C445223C3E8BE001D82BF /* Resources */,
+				F24A109C804E9D0E0A5974A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +314,7 @@
 				TargetAttributes = {
 					B03C445323C3E8BE001D82BF = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1130;
 					};
 					B03C446E23C3E8C0001D82BF = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -241,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B03C446723C3E8C0001D82BF /* LaunchScreen.storyboard in Resources */,
+				B031C76C23D6AF07007F0B13 /* GoogleService-Info.plist in Resources */,
 				B03C446423C3E8C0001D82BF /* Assets.xcassets in Resources */,
 				B03C446223C3E8BE001D82BF /* Main.storyboard in Resources */,
 			);
@@ -262,14 +374,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A7A93A3FCCAFF3B935476A87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Games4Sell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F24A109C804E9D0E0A5974A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Games4Sell/Pods-Games4Sell-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Games4Sell/Pods-Games4Sell-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Games4Sell/Pods-Games4Sell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B03C445023C3E8BE001D82BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B03C445F23C3E8BE001D82BF /* ViewController.m in Sources */,
+				B0624B7223E7E29000A7F315 /* Product.m in Sources */,
+				B04FAB4223DFF40200EC2571 /* MyProfileViewController.m in Sources */,
+				B0624B8F23F1672400A7F315 /* shopCart.m in Sources */,
+				B0624B8323E8DEA900A7F315 /* ProductDetailViewController.m in Sources */,
+				B0624B8C23F166DB00A7F315 /* shoppingCartViewController.m in Sources */,
+				B0624B6F23E7CD3400A7F315 /* ProductTableViewController.m in Sources */,
 				B03C445923C3E8BE001D82BF /* AppDelegate.m in Sources */,
 				B03C446A23C3E8C0001D82BF /* main.m in Sources */,
+				B0C63B1823F2A61600E48C64 /* OrderHistory.m in Sources */,
+				B0C63B0C23F16FAA00E48C64 /* shopCartCell.m in Sources */,
+				B0624B7A23E84F4600A7F315 /* ProductCell.m in Sources */,
+				B0C63B1523F2A44400E48C64 /* OrderHistoryCell.m in Sources */,
+				B04FAB3F23DFEF7200EC2571 /* NavigationViewController.m in Sources */,
+				B0C63B1223F2A2E700E48C64 /* OrderHistoryViewController.m in Sources */,
+				B04FAB3423DF076900EC2571 /* RegisterController.m in Sources */,
 				B03C445C23C3E8BE001D82BF /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,32 +604,43 @@
 		};
 		B03C448423C3E8C0001D82BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A099A7112AD9F572CB5F547B /* Pods-Games4Sell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Games4Sell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Roy.Games4Sell;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Roy.Games4Sell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Games4Sell/Games4Sell-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B03C448523C3E8C0001D82BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9ED2F7E13CEDBA798A01CC2 /* Pods-Games4Sell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Games4Sell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Roy.Games4Sell;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Roy.Games4Sell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Games4Sell/Games4Sell-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
